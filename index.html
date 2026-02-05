@@ -7,16 +7,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
     <!--CSS Link-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <!--Header-->
+    <!--Header-->
+    <header class="site-header">
+
         <h1>Conoalie Computing</h1>
-        <p>Human Resources Information System</p>
+        <p class="subtitle">Human Resources Information System</p>
 
     </header>
 
@@ -33,48 +38,63 @@
     <main>
 
         <!--System Overview-->
-        <h2>System Overview</h2>
-        <p>
-            The Conoalie Computing Human Resources Information System (HRIS) is an
-            internal web-based platform designed to provide employees and managers
-            with secure, consistent access to HR-related information.
-        </p>
+        <section class="system-intro">
+            <h2>System Overview</h2>
 
-        <p>
-            The system supports the communication of company policies, employee
-            benefits, training opportunities, and HR contact processes, ensuring
-            that information is accessible across the organisation.
-        </p>
+            <p>
+                The Conoalie Computing Human Resources Information System (HRIS) is an
+                internal web-based platform designed to provide employees and managers
+                with secure, consistent access to HR-related information.
+            </p>
+
+            <p>
+                The system supports the communication of company policies, employee
+                benefits, training opportunities, and HR contact processes, ensuring
+                that information is accessible across the organisation.
+            </p>
+        </section>
 
         <!--Main Content-->
-        <h3>HR Information</h3>
-        <p>
-            View organisational policies, employee benefits, working arrangements,
-            and essential HR guidance.
-        </p>
-        <a href="info.html">Access HR Information</a>
+        <section class="system-sections">
 
-        <h3>Training & Development</h3>
-        <p>
-            Access mandatory training, professional development resources,
-            and internal learning opportunities.
-        </p>
-        <a href="training.html">View Training</a>
+            <article class="card">
+                <h3>HR Information</h3>
+                <p>
+                    View organisational policies, employee benefits, working arrangements,
+                    and essential HR guidance.
+                </p>
+                <a href="info.html">Access HR Information</a>
+            </article>
 
-        <h3>Contact Human Resources</h3>
-        <p>
-            Submit HR enquiries, request support, or contact the HR team directly
-            through the internal system.
-        </p>
-        <a href="contact.html">Contact HR</a>
+            <article class="card">
+                <h3>Training & Development</h3>
+                <p>
+                    Access mandatory training, professional development resources,
+                    and internal learning opportunities.
+                </p>
+                <a href="training.html">View Training</a>
+            </article>
+
+            <article class="card">
+                <h3>Contact Human Resources</h3>
+                <p>
+                    Submit HR enquiries, request support, or contact the HR team directly
+                    through the internal system.
+                </p>
+                <a href="contact.html">Contact HR</a>
+            </article>
+
+        </section>
 
         <!--Intended Users-->
-        <h2>Intended Users</h2>
-        <ul>
-            <li>Conoalie Computing employees</li>
-            <li>Line managers and team leaders</li>
-            <li>Human Resources staff</li>
-        </ul>
+        <section class="users">
+            <h2>Intended Users</h2>
+            <ul>
+                <li>Conoalie Computing employees</li>
+                <li>Line managers and team leaders</li>
+                <li>Human Resources staff</li>
+            </ul>
+        </section>
 
     </main>
 
