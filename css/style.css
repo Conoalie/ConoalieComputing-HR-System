@@ -76,6 +76,10 @@ a {
     color: #555;
 }
 
+.logo {
+    width: 130px;
+}
+
 /* SYSTEM INTRO */
 .system-intro {
     background: white;
@@ -111,6 +115,12 @@ a {
 
 .card a:hover {
     text-decoration: underline;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
 }
 
 /* USERS SECTION */
