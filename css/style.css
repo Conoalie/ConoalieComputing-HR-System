@@ -93,7 +93,6 @@ a {
 .system-sections {
     display: flex;
     gap: 24px;
-    margin-bottom: 40px;
 }
 
 .card {
@@ -103,6 +102,7 @@ a {
     flex: 1;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     border-top: 4px solid var(--primary-blue);
+    margin-bottom: 10px;
 }
 
 .card a {
@@ -228,4 +228,11 @@ footer {
     font-size: 0.9rem;
     color: #555;
     text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .system-sections {
+        flex-direction: column;
+    }
 }
