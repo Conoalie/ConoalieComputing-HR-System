@@ -123,6 +123,75 @@ a {
     margin-bottom: 15px;
 }
 
+/* ------------------------------
+FORM LAYOUT
+--------------------------------*/
+.stacked {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.stacked .field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.stacked label {
+    width: 120px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* Inputs */
+.stacked input,
+.stacked textarea {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stacked input:focus,
+.stacked textarea:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 4px rgba(0, 119, 255, 0.3);
+    outline: none;
+}
+
+/* Textarea */
+.stacked textarea {
+    resize: none;
+}
+
+/* Submit Button */
+.stacked button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.stacked button:hover {
+    background-color: #005fcc;
+}
+
 /* USERS SECTION */
 .users ul {
     padding-left: 20px;

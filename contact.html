@@ -20,8 +20,10 @@
     <!--Header-->
     <header class="site-header">
         <img src="assets/logo.png" alt="Conoalie Computing logo" class="logo">
-        <h1>Contact Human Resources</h1>
-        <p class="subtitle">Internal HR enquiries and support</p>
+        <div>
+            <h1>Contact Human Resources</h1>
+            <p class="subtitle">Internal HR enquiries and support</p>
+        </div>
     </header>
 
     <!--Navigation-->
@@ -49,7 +51,27 @@
             </p>
         </section>
 
-        <!--Contact Form To Be Added-->
+        <!--Contact Form-->
+        <form class="stacked">
+
+            <div class="field">
+                <label for="fullname">Full Name</label>
+                <input id="fullname" type="text" placeholder="Your full name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="your.name@cononaliecomputing.co.uk" required>
+            </div>
+
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Enter your HR enquiry here" required></textarea>
+            </div>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
 
     </main>
 
